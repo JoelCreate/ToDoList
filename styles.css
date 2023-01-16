@@ -85,3 +85,14 @@ h1 {
     text-align: center;
     margin: 0 auto;
 }
+
+#clear-btn {
+    position: absolute;
+    bottom: 5%;
+    left: 0;
+    right: 0;
+    width: 150px;
+    background: #fff;
+    color: #D4A373;
+    border: none;
+}

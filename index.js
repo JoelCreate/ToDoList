@@ -16,7 +16,7 @@ function addItem(){
     let listItems = ""
     for( let i = 0; i < toDoItems.length; i++) {
         listItems += `
-            <li class="animate__animated animate__bounceIn"> 
+            <li class="animate__animated animate__slideInLeft"> 
             ${toDoItems[i]}
             </li>
         `
@@ -27,5 +27,6 @@ function addItem(){
 
 clearBtn.addEventListener("click", function(){
     orderedList.innerHTML = ""
+    toDoItems = []
 
 })
